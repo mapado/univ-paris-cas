@@ -1,0 +1,19 @@
+{
+    "name": "mapado/univ-paris-cas",
+    "type": "project",
+    "require": {
+        "apereo/phpcas": "^1.6"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Mapado\\UnivParisCas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julien Deniau",
+            "email": "julien.deniau@gmail.com"
+        }
+    ]
+}
