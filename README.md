@@ -16,7 +16,7 @@ On nous a donné des identifiant de test avec un "service" qui est une URL inexi
   - recharger nginx : `sudo systemctl reload nginx`
 
 Aller sur l'url [https://autht1.app.u-paris.fr/idp/profile/cas/login?service=https://test.u-paris.fr/](https://autht1.app.u-paris.fr/idp/profile/cas/login?service=https://test.u-paris.fr/)
-Se connecter avec les identifiants user.mapado. Le mot de passe se trouve à cette URL : [trieste.dsi.univ-paris-diderot.fr/~sbr/p/UIxGuj82gegShRx9z5NZAv3NGQHuAYUo/avNmnqhI5l8KHYYv.html](trieste.dsi.univ-paris-diderot.fr/~sbr/p/UIxGuj82gegShRx9z5NZAv3NGQHuAYUo/avNmnqhI5l8KHYYv.html)
+Se connecter avec les identifiants user.mapado. Le mot de passe se trouve dans passpack : https://app.passpack.com/passwords/detail/17469516
 
 On doit être redirigé sur la page "test.u-paris.fr" qui doit afficher le contenu de debug:
 
