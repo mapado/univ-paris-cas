@@ -47,10 +47,10 @@ $cas_server_ca_cert_path = 'app-u-paris-fr.pem';
 $cas_real_hosts = ['cas-real-1.example.com', 'cas-real-2.example.com'];
 
 // Client config for the required domain name, should be protocol, hostname and port
-$client_service_name = 'https://test.u-paris.fr/';
+$client_service_name = 'https://oauth2.cas.dev.mapado.com/';
 
 // Client config for cookie hardening
-$client_domain = 'test.u-paris.fr';
+$client_domain = 'oauth2.cas.dev.mapado.com';
 $client_path = 'phpcas';
 $client_secure = true;
 $client_httpOnly = true;
